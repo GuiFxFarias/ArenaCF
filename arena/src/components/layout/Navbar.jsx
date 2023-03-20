@@ -26,7 +26,9 @@ function Navbar() {
       <nav className="navbar">
         <div className="nameAndSimbol">
           <img src={SimbolArena} alt="ArenaCF" />
-          <span>ARENA CF</span>
+          <span style={{ backgroundColor: "#eb2429 ", color: "white", padding: "5px" }}>
+            VENHA JA FAZER SEU TESTE GRATIS
+          </span>
         </div>
         <ul className="list">
           <li className="itemList">Home</li>

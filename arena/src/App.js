@@ -1,5 +1,5 @@
 import "./App.css";
-import Home from "./components/pages/Home";
+import Main from "./components/pages/Main";
 import Navbar from "./components/layout/Navbar";
 import MainMobile from "./components/layout/MainMobile";
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <MainMobile>
         <Navbar />
-        <Home />
+        <Main />
       </MainMobile>
     </>
   );
