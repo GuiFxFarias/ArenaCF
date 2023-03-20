@@ -1,0 +1,6 @@
+@media screen and (max-width: 1050px) {
+  .mainMobile {
+    display: flex;
+    flex-direction: row;
+  }
+}
