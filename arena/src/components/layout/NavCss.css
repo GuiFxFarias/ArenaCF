@@ -29,6 +29,7 @@
 
 .navbarMobile {
   display: none;
+  position: fixed;
 }
 
 .list {
@@ -60,7 +61,6 @@ img {
     color: red;
     background-color: black;
     border-right: 1px solid white;
-    position: fixed;
 
     width: 10vw;
     display: flex;
@@ -69,7 +69,6 @@ img {
     justify-content: space-around;
     height: 100vh;
     z-index: 99;
-    position: fixed;
     transition: 0.7s;
   }
 
