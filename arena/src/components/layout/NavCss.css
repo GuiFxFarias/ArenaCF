@@ -60,6 +60,7 @@ img {
     color: red;
     background-color: black;
     border-right: 1px solid white;
+    position: fixed;
 
     width: 10vw;
     display: flex;
