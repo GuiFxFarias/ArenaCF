@@ -608,25 +608,24 @@ strong {
 }
 
 @media screen and (max-height: 420px) {
-
   .contentHomePage {
     height: 690vh;
   }
 
-  .contact{
+  .contact {
     height: 100vh;
     justify-content: space-around;
   }
-  
-  .picTeacher{
+
+  .picTeacher {
     display: none;
   }
 
-  .photoArena{
+  .photoArena {
     height: 49vh;
   }
-  
-  .btn{
+
+  .btn {
     width: 30vw;
   }
 
@@ -635,8 +634,44 @@ strong {
   }
 
   .map iframe {
-    width: 90vw;
+    width: 89.9vw;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  .contentHomePage {
+    height: 770vh;
   }
 
-  
+  .teachers {
+    font-size: 10pt;
+    height: 65vh;
+  }
+
+  .contact {
+    height: 150vh;
+    justify-content: space-around;
+  }
+
+  .contact form fieldset {
+    height: 65vh;
+  }
+}
+@media screen and (max-height: 305px) {
+  .contentHomePage {
+    height: 790vh;
+  }
+
+  .teachers {
+    height: 75vh;
+  }
+
+  .contact {
+    height: 160vh;
+    justify-content: space-around;
+  }
+
+  .contact form fieldset {
+    height: 75vh;
+  }
 }
