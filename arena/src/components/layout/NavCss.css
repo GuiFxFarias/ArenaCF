@@ -78,7 +78,7 @@ img {
   }
 
   .simbolMobile {
-    width: 55%;
+    width: 100%;
     text-align: center;
   }
 
@@ -161,5 +161,22 @@ img {
   .itemMobile {
     font-size: 8pt;
     font-weight: 200;
+  }
+}
+
+@media screen and (max-height: 420px) {
+  .simbolMobile {
+    width: 60%;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  .simbolMobile {
+    width: 50%;
+  }
+}
+@media screen and (max-height: 305px) {
+  .simbolMobile {
+    width: 45%;
   }
 }
