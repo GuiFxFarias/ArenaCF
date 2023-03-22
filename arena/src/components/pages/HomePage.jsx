@@ -84,19 +84,19 @@ function HomePage() {
           <section className="planes">
             <div className="planesPay animate__animated animate__delay-1s animate__zoomIn">
               <div className="iconPrice">
-                <h1 className="planePrice">Plano anual</h1>
-                <h2 className="price">R$ 125,00</h2>
+                <h1 className="planePrice">Plano fidelidade 12 meses</h1>
+                <h2 className="price">R$ 129,90 (mensal)</h2>
               </div>
             </div>
             <div className="planesPay animate__animated animate__zoomIn animate__delay-1s">
               <div className="iconPrice">
                 <h1 className="planePrice">Plano Semestral</h1>
-                <h2 className="price">R$ 189,00</h2>
+                <h2 className="price">R$ 189,90</h2>
               </div>
             </div>
             <div className="planesPay animate__animated animate__zoomIn animate__delay-1s">
               <div className="iconPrice">
-                <h1 className="planePrice">Plano mensal</h1>
+                <h1 className="planePrice">Mes avulso</h1>
                 <h2 className="price">R$ 215,00</h2>
               </div>
             </div>
