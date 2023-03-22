@@ -85,7 +85,7 @@ function HomePage() {
             <div className="planesPay animate__animated animate__delay-1s animate__zoomIn">
               <div className="iconPrice">
                 <h1 className="planePrice">Plano fidelidade 12 meses</h1>
-                <h2 className="price">R$ 129,90 (mensal)</h2>
+                <h2 className="price">R$ 129,90 <p style={{fontSize: 12, margin: "0"}}>mensal</p></h2>
               </div>
             </div>
             <div className="planesPay animate__animated animate__zoomIn animate__delay-1s">
