@@ -412,8 +412,7 @@ strong {
 }
 
 @media screen and (max-width: 900px) {
-
-  .contentHomePage{
+  .contentHomePage {
     height: 362vh;
   }
 
@@ -428,14 +427,13 @@ strong {
     height: 60vh;
   }
 
-  .bioArena{
+  .bioArena {
     width: 78vw;
   }
 }
 
 @media screen and (max-width: 768px) {
-
-  .contentHomePage{
+  .contentHomePage {
     height: 425vh;
   }
 
@@ -465,7 +463,7 @@ strong {
     justify-content: center;
   }
 
-  .bioArena{
+  .bioArena {
     width: 74vw;
   }
 
@@ -516,7 +514,7 @@ strong {
     height: 520vh;
   }
 
-  .bioArena{
+  .bioArena {
     width: 60vw;
   }
 
@@ -576,4 +574,32 @@ strong {
   .planePrice {
     transform: translateY(20px);
   }
+}
+
+@media screen and (max-width: 393px) {
+  .teachers {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  .contentHomePage{
+    height: 540vh;
+  }
+
+  .flexTeachers {
+    height: 160vh;
+  }
+
+  .teachers {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .contentHomePage{
+    height: 567vh;
+  }
+
 }
