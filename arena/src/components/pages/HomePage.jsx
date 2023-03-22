@@ -97,7 +97,7 @@ function HomePage() {
             <div className="planesPay animate__animated animate__zoomIn animate__delay-1s">
               <div className="iconPrice">
                 <h1 className="planePrice">Mes avulso</h1>
-                <h2 className="price">R$ 215,00</h2>
+                <h2 className="price">R$ 219,90</h2>
               </div>
             </div>
           </section>
