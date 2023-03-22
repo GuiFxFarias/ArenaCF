@@ -198,7 +198,9 @@ function HomePage() {
               </p>
             </div>
           </section>
-          <h1 style={{ margin: "1em " }}>Entre em contato</h1>
+          <h1 style={{ margin: "1em " }} className="contactName">
+            Entre em contato
+          </h1>
           <section className="contact">
             <form action="">
               <fieldset>

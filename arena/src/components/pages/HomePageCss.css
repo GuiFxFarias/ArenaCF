@@ -514,6 +514,10 @@ strong {
     height: 520vh;
   }
 
+  .contactName {
+    font-size: 20pt;
+  }
+
   .bioArena {
     width: 60vw;
   }
@@ -583,8 +587,7 @@ strong {
 }
 
 @media screen and (max-width: 375px) {
-
-  .contentHomePage{
+  .contentHomePage {
     height: 540vh;
   }
 
@@ -598,8 +601,7 @@ strong {
 }
 
 @media screen and (max-width: 360px) {
-  .contentHomePage{
+  .contentHomePage {
     height: 567vh;
   }
-
 }
