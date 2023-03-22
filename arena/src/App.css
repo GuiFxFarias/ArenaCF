@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+::-webkit-scrollbar {
+  width: 5px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+  /* Cor de fundo da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #eb242b; /* Cor da barra de rolagem */
+  border-radius: 5px; /* Arredondamento dos cantos */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Cor da barra de rolagem ao passar o mouse */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

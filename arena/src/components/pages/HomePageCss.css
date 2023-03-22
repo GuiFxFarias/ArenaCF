@@ -4,7 +4,13 @@
     format("opentype");
 }
 
-h1 {
+@font-face {
+  font-family: "Open Sans";
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,700&display=swap");
+}
+
+h1,
+h2 {
   font-family: "Akira", Arial, Helvetica, sans-serif;
   text-align: center;
   margin: 0em 0em 1em 0em;
@@ -12,7 +18,7 @@ h1 {
 
 .contentHomePage {
   width: 100%;
-  height: 250vh;
+  height: 369vh;
   margin: auto;
 }
 
@@ -97,7 +103,7 @@ h1 {
   background-color: black;
 }
 
-.teacher h1 {
+.marginProfessor {
   margin-bottom: 2em;
 }
 
@@ -121,12 +127,12 @@ h1 {
   border: 1px solid rgba(255, 255, 255, 0.555);
 }
 
-.T1{
-  background: url('../../assets/quell.png');
+.T1 {
+  background: url("../../assets/quell.png");
 }
 
-.T2{
-  background: url('../../assets/dani.png');
+.T2 {
+  background: url("../../assets/dani.png");
 }
 
 .picTeacher {
@@ -134,7 +140,7 @@ h1 {
   background-position: center center;
   border-top-left-radius: 1em;
   border-bottom-left-radius: 1em;
-
+  transition: 0.7s;
 
   width: 20vw;
 }
@@ -143,12 +149,239 @@ h1 {
   background-color: rgba(255, 255, 255, 0.589);
   margin: 2em;
   border-radius: 1em;
-  
-  width: 20vw;
 
+  width: 20vw;
 }
 
-@media screen and (max-width: 1050px) {
+.textTeacher h2 {
+  font-size: 10pt;
+  margin: 5px 0px;
+}
+
+.n1 {
+  margin: 10px 0px 5px 0px;
+}
+
+.name {
+  font-size: 14pt;
+  margin: 5px 0px 5px 0px;
+}
+
+.biography {
+  font-family: "Akira", Arial, Helvetica, sans-serif;
+  padding: 1em;
+  margin: 0px;
+  list-style: none;
+}
+
+.biography a {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 11pt;
+  transition: 0.5s;
+}
+
+.biography a:hover {
+  color: #551113;
+}
+
+strong {
+  color: #551113;
+}
+
+.bioArena {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 80vw;
+  margin: 4em auto;
+}
+
+.nameArenaBio {
+  margin-top: 2em;
+}
+
+.photoArena {
+  border: 1px solid white;
+  width: 20vw;
+  height: 40vh;
+}
+
+.textArena {
+  text-indent: 1em;
+  font-size: 14pt;
+  width: 50vw;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.contact {
+  border-top: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.432);
+  margin-top: 40px;
+  margin-left: -50px;
+  width: 100vw;
+  height: 59vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact form fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0px;
+  border: none;
+  margin-left: 50px;
+  height: 60vh;
+  width: 40vw;
+}
+
+.contact form fieldset input {
+  width: 40vw;
+  padding: 10px;
+  margin: 0.5em;
+  text-align: center;
+}
+
+.contact form fieldset textarea {
+  padding: 10px;
+  margin: 0.5em;
+  width: 40vw;
+  resize: none;
+  text-align: center;
+  height: 30vh;
+}
+
+.btn {
+  cursor: pointer;
+  width: 10vw;
+  background-color: #eb242b;
+  border: none;
+  padding: 1em;
+  border-radius: 1em;
+  color: white;
+  box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.205);
+}
+
+.map iframe {
+  border: none;
+  height: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  .contentHomePage {
+    height: 400vh;
+  }
+
+  .flexTeachers {
+    flex-direction: column;
+    height: 110vh;
+  }
+  .teachers {
+    width: 70vw;
+    margin-top: 1.5em;
+  }
+  .textTeacher {
+    width: 45vw;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contact form fieldset {
+    margin-left: 40px;
+    height: 50vh;
+    width: 100%;
+  }
+
+  .map iframe {
+    height: 59vh;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .flexTeachers {
+    flex-direction: column;
+    height: 110vh;
+  }
+  .teachers {
+    width: 70vw;
+    margin-top: 1.5em;
+  }
+  .textTeacher {
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contentHomePage {
+    height: 464vh;
+    background-color: black;
+  }
+
+  .nameArenaBio {
+    margin-top: 2em;
+  }
+
+  .contact {
+    margin-left: -50px;
+    width: 90vw;
+    flex-direction: column;
+    height: 65vh;
+    justify-content: center;
+  }
+
+  .contact form fieldset input {
+    width: 60vw;
+  }
+  .contact form fieldset textarea {
+    width: 60vw;
+  }
+
+  .contact form fieldset {
+    margin: 0px;
+    height: 50vh;
+    width: 100%;
+  }
+  .map iframe {
+    width: 100vw;
+    height: 272%;
+  }
+
+  .marginProfessor {
+    font-size: 20pt;
+  }
+
+  .teachers {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+  }
+
+  .flexTeachers {
+    height: 130vh;
+  }
+
+  .textTeacher {
+    width: 63vw;
+  }
+
+  .picTeacher {
+    background-position: top center;
+
+    margin-top: 1.5em;
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vh;
+  }
+
   .planesPay {
     width: 200px;
     height: 300px;
@@ -162,9 +395,28 @@ h1 {
   .price {
     font-size: 15pt;
   }
+
+  .bioArena {
+    flex-direction: column;
+  }
+
+  .textArena {
+    margin-top: 1em;
+    width: 80vw;
+  }
+
+  .photoArena {
+    width: 80vw;
+    height: 25vh;
+  }
 }
 
 @media screen and (max-width: 900px) {
+
+  .contentHomePage{
+    height: 362vh;
+  }
+
   .image {
     background: url("../../assets/crossfit-power-weight-lifting.jpg");
     background-position: top center center;
@@ -175,9 +427,22 @@ h1 {
     width: 100%;
     height: 60vh;
   }
+
+  .bioArena{
+    width: 78vw;
+  }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 768px) {
+
+  .contentHomePage{
+    height: 425vh;
+  }
+
+  .teachers {
+    flex-direction: column;
+  }
+
   .planes {
     display: flex;
     flex-direction: column;
@@ -192,6 +457,36 @@ h1 {
 }
 
 @media screen and (max-width: 700px) {
+  .contentHomePage {
+    height: 454vh;
+  }
+
+  .contact {
+    justify-content: center;
+  }
+
+  .bioArena{
+    width: 74vw;
+  }
+
+  .btn {
+    width: 20vw;
+  }
+
+  .teachers {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .picTeacher {
+    background-position: top center;
+
+    margin-top: 1.5em;
+    border-radius: 50%;
+    width: 20vw;
+  }
+
   .image {
     background: url("../../assets/ARENACFsimbol\ cel.jpg");
     background-position: center center;
@@ -216,7 +511,58 @@ h1 {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .contentHomePage {
+    height: 520vh;
+  }
+
+  .bioArena{
+    width: 60vw;
+  }
+
+  .btn {
+    width: 25vw;
+  }
+
+  .contact {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 80vh;
+    width: 90vw;
+  }
+
+  .contact form fieldset {
+    margin: 0px;
+    height: 50vh;
+    width: 100%;
+  }
+  .map iframe {
+    width: 89vw;
+    height: 128%;
+  }
+}
+
 @media screen and (max-width: 450px) {
+  .biography a {
+    font-size: 9pt;
+  }
+
+  .h1Plane {
+    font-size: 15pt;
+  }
+
+  .marginProfessor {
+    font-size: 15pt;
+    margin-bottom: 4em;
+  }
+
+  .picTeacher {
+    width: 30vw;
+    border-radius: 40%;
+  }
+
   .planesPay {
     margin-top: 15px;
     width: 250px;
