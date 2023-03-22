@@ -23,38 +23,47 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar">
-        <div className="nameAndSimbol">
-          <img src={SimbolArena} alt="ArenaCF" />
-          <span style={{ backgroundColor: "#eb2429 ", color: "white", padding: "5px" }}>
-            ARENA CF
-          </span>
-        </div>
-        <ul className="list">
-          <li className="itemList">Home</li>
-          <li className="itemList">Ranking</li>
-          <li className="itemList">Movimentos</li>
-        </ul>
-      </nav>
-      <nav className={`navbarMobile ${click}`}>
-        <div className="menu">
-          <HiMenuAlt1 onClick={showState} />
-        </div>
-        <ul className={`listMobile ${opacity}`}>
-          <li className="itemMobile" onClick={showState}>
-            Home
-          </li>
-          <li className="itemMobile" onClick={showState}>
-            Ranking
-          </li>
-          <li className="itemMobile" onClick={showState}>
-            Movimentos
-          </li>
-        </ul>
-        <div className="simbolMobile">
-          <img src={SimbolArena} alt="ArenaCF" />
-        </div>
-      </nav>
+      <header>
+        {" "}
+        <nav className="navbar">
+          <div className="nameAndSimbol">
+            <img src={SimbolArena} alt="ArenaCF" />
+            <span
+              style={{
+                backgroundColor: "#eb2429 ",
+                color: "white",
+                padding: "5px",
+              }}
+            >
+              <h1 style={{ margin: 0 }}>ARENA CF</h1>
+            </span>
+          </div>
+          <ul className="list">
+            <li className="itemList">Home</li>
+            <li className="itemList">Ranking</li>
+            <li className="itemList">Movimentos</li>
+          </ul>
+        </nav>
+        <nav className={`navbarMobile ${click}`}>
+          <div className="menu">
+            <HiMenuAlt1 onClick={showState} />
+          </div>
+          <ul className={`listMobile ${opacity}`}>
+            <li className="itemMobile" onClick={showState}>
+              Home
+            </li>
+            <li className="itemMobile" onClick={showState}>
+              Ranking
+            </li>
+            <li className="itemMobile" onClick={showState}>
+              Movimentos
+            </li>
+          </ul>
+          <div className="simbolMobile">
+            <img src={SimbolArena} alt="ArenaCF" />
+          </div>
+        </nav>
+      </header>
     </>
   );
 }
