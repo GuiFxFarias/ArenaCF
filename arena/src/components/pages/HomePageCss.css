@@ -230,6 +230,7 @@ strong {
 .contact form fieldset {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 
   padding: 0px;
@@ -604,4 +605,38 @@ strong {
   .contentHomePage {
     height: 567vh;
   }
+}
+
+@media screen and (max-height: 420px) {
+
+  .contentHomePage {
+    height: 690vh;
+  }
+
+  .contact{
+    height: 100vh;
+    justify-content: space-around;
+  }
+  
+  .picTeacher{
+    display: none;
+  }
+
+  .photoArena{
+    height: 49vh;
+  }
+  
+  .btn{
+    width: 30vw;
+  }
+
+  .bioArena {
+    width: 80vw;
+  }
+
+  .map iframe {
+    width: 90vw;
+  }
+
+  
 }
