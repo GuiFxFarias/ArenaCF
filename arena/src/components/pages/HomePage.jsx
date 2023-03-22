@@ -85,7 +85,9 @@ function HomePage() {
             <div className="planesPay animate__animated animate__delay-1s animate__zoomIn">
               <div className="iconPrice">
                 <h1 className="planePrice">Plano fidelidade 12 meses</h1>
-                <h2 className="price">R$ 129,90 <p style={{fontSize: 12, margin: "0"}}>mensal</p></h2>
+                <h2 className="price">
+                  R$ 129,90 <p style={{ fontSize: 12, margin: "0" }}>mensal</p>
+                </h2>
               </div>
             </div>
             <div className="planesPay animate__animated animate__zoomIn animate__delay-1s">
@@ -113,30 +115,42 @@ function HomePage() {
                 <h1 className="name">Quell</h1>
                 <ul className="biography">
                   <li>
-                    <strong>Idade</strong> : 21
+                    <p>
+                      <strong>Idade</strong> : 21
+                    </p>
                   </li>
                   <li>
-                    <strong>Altura</strong> : 160 cm
+                    <p>
+                      <strong>Altura</strong> : 160 cm
+                    </p>
                   </li>
                   <li>
                     <strong>Formacao</strong> : Educacao fisica
                   </li>
                   <li>
-                    <strong>Locais de treino</strong> : Academia Pacer e Arena
-                    CF
+                    <p>
+                      <strong>Locais de treino</strong> : Academia Pacer e Arena
+                      CF
+                    </p>
                   </li>
                   <li>
-                    <strong>Contato</strong> : 16 99258-7319
+                    <p>
+                      <strong>Contato</strong> : 16 99258-7319
+                    </p>
                   </li>
                   <li>
-                    <strong>Instagram</strong> :{" "}
-                    <a
-                      href="https://www.instagram.com/coach_quellcgomes/"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      @coach_quellcgomes
-                    </a>
+                    <p>
+                      <strong>Instagram</strong> :{" "}
+                    </p>
+                    <p>
+                      <a
+                        href="https://www.instagram.com/coach_quellcgomes/"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        @coach_quellcgomes
+                      </a>
+                    </p>
                   </li>
                 </ul>
               </div>
