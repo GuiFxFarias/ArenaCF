@@ -96,7 +96,7 @@ function HomePage() {
                 <h2 className="price">R$ 189,90</h2>
               </div>
             </div>
-            <div className="planesPay animate__animated animate__zoomIn animate__delay-1s">
+            <div className="planesPay payLast animate__animated animate__zoomIn animate__delay-1s">
               <div className="iconPrice">
                 <h1 className="planePrice">Mes avulso</h1>
                 <h2 className="price">R$ 219,90</h2>
@@ -216,7 +216,7 @@ function HomePage() {
             Entre em contato
           </h1>
           <section className="contact">
-            <form action="">
+            <form action="" style={{display: "flex", alignItems: "center"}}>
               <fieldset>
                 <input
                   type="text"

@@ -4,10 +4,7 @@
     format("opentype");
 }
 
-@font-face {
-  font-family: "Open Sans";
-  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,700&display=swap");
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
 
 h1,
 h2,
@@ -19,7 +16,7 @@ h3 {
 
 .contentHomePage {
   width: 100%;
-  height: 350vh;
+  height: 393vh;
   margin: auto;
 }
 
@@ -56,7 +53,7 @@ h3 {
 
 .planes {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .planesPay {
@@ -71,10 +68,15 @@ h3 {
   height: 400px;
   box-shadow: -10px 10px 1px rgba(255, 0, 0, 0.61);
   transition: 0.7s;
+  margin-right: 4em;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.payLast {
+  margin-right: 0px;
 }
 
 .iconPrice {
@@ -117,7 +119,6 @@ h3 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   margin: auto;
 }
 
@@ -154,7 +155,6 @@ h3 {
   background-color: rgba(255, 255, 255, 0.589);
   margin: 2em;
   border-radius: 1em;
-
   width: 20vw;
 }
 
@@ -173,9 +173,10 @@ h3 {
 }
 
 .biography {
-  font-family: "Akira", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   padding: 1em;
   margin: 0px;
+  font-size: 1.1rem;
   list-style: none;
 }
 
@@ -227,7 +228,7 @@ strong {
   margin-top: 40px;
   margin-left: -50px;
   width: 100vw;
-  height: 59vh;
+  height: 65vh;
   display: flex;
   justify-content: space-between;
 }
@@ -274,7 +275,7 @@ strong {
 
 .map iframe {
   border: none;
-  height: 100%;
+  height: 99.9%;
 }
 
 @media screen and (max-width: 1280px) {
@@ -453,7 +454,7 @@ strong {
 
 @media screen and (max-width: 768px) {
   .contentHomePage {
-    height: 425vh;
+    height: 465vh;
   }
 
   .teachers {
@@ -467,13 +468,14 @@ strong {
   }
 
   .planesPay {
+    margin-right: 0px;
     margin-top: 15px;
     width: 300px;
     height: 200px;
   }
 
   .map iframe {
-    width: 89.5vw;
+    width: 90.5vw;
   }
 }
 
@@ -532,7 +534,7 @@ strong {
   }
 
   .map iframe {
-    width: 89.1vw;
+    width: 90.1vw;
   }
 }
 

@@ -1,12 +1,9 @@
-import HomePage from "./HomePage";
 import "./MainCss.css";
 
-function Main() {
+function Main(props) {
   return (
     <>
-      <main className="pages p1">
-        <HomePage />
-      </main>
+      <main className="pages p1">{props.children}</main>
     </>
   );
 }

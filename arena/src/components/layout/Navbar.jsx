@@ -2,6 +2,7 @@ import "./NavCss.css";
 import { HiMenuAlt1 } from "react-icons/hi";
 import SimbolArena from "../../assets/ArenaCf-Simbol.png";
 import { useState } from "react";
+import {Link} from 'react-router-dom'
 
 function Navbar() {
   const [show, setShow] = useState(true);
@@ -39,9 +40,18 @@ function Navbar() {
             </span>
           </div>
           <ul className="list">
-            <li className="itemList">Home</li>
+            {/* <li className="itemList">Home</li>
             <li className="itemList">Ranking</li>
-            <li className="itemList">Movimentos</li>
+            <li className="itemList">Movimentos</li> */}
+            <li className="itemList">
+              <Link to={"/"}>Home</Link>
+            </li>
+            <li className="itemList">
+              <Link to={"/Ranking"}>Ranking</Link>
+            </li>
+            <li className="itemList">
+              <Link to={"/Movimentos"}>Movimentos</Link>
+            </li>
           </ul>
         </nav>
         <nav className={`navbarMobile ${click}`}>

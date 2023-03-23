@@ -41,6 +41,16 @@
   align-items: center;
 }
 
+.list a{
+  color: white;
+  text-decoration: none;
+  transition: .7s;
+}
+
+.list a:hover{
+  background-color: red;
+}
+
 .itemList {
   margin-right: 10px;
 }
