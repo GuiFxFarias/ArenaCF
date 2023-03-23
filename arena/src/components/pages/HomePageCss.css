@@ -10,10 +10,11 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Akira", Arial, Helvetica, sans-serif;
   text-align: center;
-  margin: 0em 0em 1em 0em;
+  margin: 0em 0em 0em 0em;
 }
 
 .contentHomePage {
@@ -41,6 +42,10 @@ h2 {
   background-color: #eb242baf;
   padding: 0.7em;
   margin: 0px;
+}
+
+.h1Plane {
+  margin-bottom: 1em;
 }
 
 .choicePlanes {
@@ -322,7 +327,7 @@ strong {
 
 @media screen and (max-width: 1024px) {
   .contentHomePage {
-    height: 385vh;
+    height: 469vh;
     background-color: black;
   }
 
@@ -330,11 +335,15 @@ strong {
     margin-top: 2em;
   }
 
+  .choicePlanes .h1Plane {
+    margin-bottom: 1em;
+  }
+
   .contact {
     margin-left: -50px;
     width: 90vw;
     flex-direction: column;
-    height: 65vh;
+    height: 75vh;
     justify-content: center;
   }
 
@@ -347,11 +356,11 @@ strong {
 
   .contact form fieldset {
     margin: 0px;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
   }
   .map iframe {
-    width: 100vw;
+    width: 90.5vw;
     height: 272%;
   }
 
@@ -399,6 +408,7 @@ strong {
 
   .bioArena {
     flex-direction: column;
+    width: 79vw;
   }
 
   .textArena {
@@ -410,11 +420,19 @@ strong {
     width: 80vw;
     height: 25vh;
   }
+
+  .btn {
+    width: 20vw;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .contentHomePage {
     height: 362vh;
+  }
+
+  .btn {
+    width: 20vw;
   }
 
   .image {
@@ -453,11 +471,15 @@ strong {
     width: 300px;
     height: 200px;
   }
+
+  .map iframe {
+    width: 89.5vw;
+  }
 }
 
 @media screen and (max-width: 700px) {
   .contentHomePage {
-    height: 454vh;
+    height: 460vh;
   }
 
   .contact {
@@ -507,6 +529,10 @@ strong {
     background-color: #eb242baf;
     padding: 0.7em;
     margin: 0px;
+  }
+
+  .map iframe {
+    width: 89.1vw;
   }
 }
 
@@ -575,10 +601,6 @@ strong {
   .iconPrice {
     height: 70%;
   }
-
-  .planePrice {
-    transform: translateY(20px);
-  }
 }
 
 @media screen and (max-width: 393px) {
@@ -604,6 +626,12 @@ strong {
 @media screen and (max-width: 360px) {
   .contentHomePage {
     height: 567vh;
+  }
+}
+
+@media screen and (min-height: 1280px) {
+  .contentHomePage {
+    height: 400vh;
   }
 }
 

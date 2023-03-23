@@ -111,8 +111,8 @@ function HomePage() {
               <div className="picTeacher T1"></div>
               <div className="textTeacher">
                 <h1 className="name n1">Raquel Gomes</h1>
-                <h2>ou</h2>
-                <h1 className="name">Quell</h1>
+                <h3>ou</h3>
+                <h3 className="name">Quell</h3>
                 <ul className="biography">
                   <li>
                     <p>
