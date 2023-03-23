@@ -3,7 +3,9 @@ import "./MovimentosPageCss.css"
 function Movimentos() {
   return (
     <>
-      <h1>Movimentos</h1>
+      <main className="movimentosPagr">
+        
+      </main>
     </>
   );
 }

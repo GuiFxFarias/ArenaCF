@@ -159,8 +159,8 @@ function HomePage() {
               <div className="picTeacher T2"></div>
               <div className="textTeacher">
                 <h1 className="name n1">Daniel Gomes</h1>
-                <h2>ou</h2>
-                <h1 className="name">Dani burpee</h1>
+                <h3>ou</h3>
+                <h3 className="name">Dani burpee</h3>
                 <ul className="biography">
                   <li>
                     <strong>Idade</strong> : 27
